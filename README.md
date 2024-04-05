@@ -21,13 +21,12 @@ We will be using Nessus Essentials to scan local VMs hosted on VMWare Workstatio
 
 <h2>Install Oracle VM Virtual Box to your system:</h2>
 
-On The Oracle VM Virtual Box Website, download the correct VirtualBox Depending on what system you are using. (Steps will be fairly simmular for install:<br/>
-
+On The Oracle VM Virtual Box Website, download the correct VirtualBox Depending on what system you are using. (Steps will be fairly simmular for install):<br/>
 <img src="https://i.imgur.com/u9vQ58g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Ensure connectivity by pinging the virtual machine with your local machine:  <br/>
-<img src="https://i.imgur.com/n633l78.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="(https://i.imgur.com/esHQueE.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
@@ -84,4 +83,6 @@ For the Advance Sharing Settings in the VM, make sure that the file and printer 
 @@ text in purple (and bold)@@
 ```
 --!>
+
+
 
