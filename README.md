@@ -25,10 +25,6 @@ On The Oracle VM Virtual Box Website, download the correct VirtualBox Depending 
 <img src="https://i.imgur.com/u9vQ58g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Ensure connectivity by pinging the virtual machine with your local machine:  <br/>
-<img src="(https://i.imgur.com/esHQueE.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
 
 
 <h2>Install Kali Linux Distrobution to the Virtual Machine:</h2>
