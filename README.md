@@ -28,7 +28,7 @@ Download the appropriate VirtualBox depending on what system is in use. (In this
 <img src="images/1b-VBox.png" height="80%" width="80%">
 <br />
 <br />
-Follow the standard install process. 
+Follow the standard install process. <br />
 Allow Warning: Network Interfaces prompt (This allows the VM to talk to other VMs and access the internet)
 Install the missing dependencies with the program. 
 <img src="images/1c-VBox.png" height="80%" width="80%">
