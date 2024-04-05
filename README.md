@@ -21,43 +21,6 @@ We will be using Nessus Essentials to scan local VMs hosted on VMWare Workstatio
 
 <h2>Install Oracle VM Virtual Box to your system:</h2>
 
-On The Oracle VM Virtual Box Website, download the correct VirtualBox Depending on what system you are using. (Steps will be fairly simmular for install):<br/>
-
-<br />
-<br />
-
-
-<h2>Install Kali Linux Distrobution to the Virtual Machine:</h2>
-
-Next-up:
-Setup the virtual machine to be able to accept authenticated scans. Provide credentials to Nessus then rescan the virtual machine to compare results with the new scans compared to the one shown on the first scan.
-<br />
-<br />
-<p>
-In the Virtual Machine, enable remote registry (this will allow the scanner to connect to this Virtual Machine's registry and look for unsecure configurations):  <br/>
-<img src="https://i.imgur.com/4UA2A8t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-For the Advance Sharing Settings in the VM, make sure that the file and printer share is on:  <br/>
-<img src="https://i.imgur.com/j01cO02.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-
-
-<h2>Configure the settings of your Kali Linux VIrtual Machine:</h2>
-
-Setup the virtual machine to be able to accept authenticated scans. Provide credentials to Nessus then rescan the virtual machine to compare results with the new scans compared to the one shown on the first scan.
-<br />
-<br />
-<p>
-In the Virtual Machine, enable remote registry (this will allow the scanner to connect to this Virtual Machine's registry and look for unsecure configurations):  <br/>
-<img src="https://i.imgur.com/4UA2A8t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-For the Advance Sharing Settings in the VM, make sure that the file and printer share is on:  <br/>
-<img src="https://i.imgur.com/j01cO02.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
 
 
 <h2>Lessons Learned</h2>
