@@ -21,9 +21,9 @@ We will be using Nessus Essentials to scan local VMs hosted on VMWare Workstatio
 
 <h2>Install Oracle VM Virtual Box to your system:</h2>
 
-<p>
-Create virtual machine instance in VMWare:  <br/>
-<img src="https://i.imgur.com/GMU6LES.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+On The Oracle VM Virtual Box Website, download the correct VirtualBox Depending on what system you are using. (Steps will be fairly simmular for install:<br/>
+
+<img src="https://i.imgur.com/u9vQ58g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Ensure connectivity by pinging the virtual machine with your local machine:  <br/>
@@ -71,16 +71,8 @@ For the Advance Sharing Settings in the VM, make sure that the file and printer 
 - <b>A credential scan is will give us more feedback and alerts for us to dig into and remediate</b> 
 <br />
 
-<h2>Brush Up</h2>
-
-- <b>Vulnerability Management on a large scale </b>
-- <b>Touch up on CVSS scoring. </b>
-- <b>Third Party Patching, Windows OS Patching that are setup, tested and deployed regularly (prevents going through and dealing with individual vulnerbilities that could be easily fixed by automated patching</b>
-<br />
-
-<h2>Shortcuts Learned</h2>
-
-- <b>appwiz.cpl - Programs and features</b> 
+<h2>Useful Links</h2>
+- https://www.virtualbox.org/
 
 
 <!--
