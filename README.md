@@ -22,6 +22,13 @@ We will be using Nessus Essentials to scan local VMs hosted on VMWare Workstatio
 <h2>Install Oracle VM Virtual Box to your system:</h2>
 
 <img src="images/1a-VBox.png" height="80%" width="80%">
+<br />
+<br />
+Download the appropriate VirtualBox depending on what system you are using. (In this example we are using Windows):
+<img src="images/1b-VBox.png" height="80%" width="80%">
+<br />
+<br />
+
 
 <h2>Lessons Learned</h2>
 
