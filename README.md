@@ -19,16 +19,24 @@ We will be using Nessus Essentials to scan local VMs hosted on VMWare Workstatio
 - <b>Kali Linux</b> (2024.1-amd64)
 - 
 
-<h2>Install Oracle VM Virtual Box to your system:</h2>
-
+<h2>Install Oracle VM VirtualBox to your system:</h2>
+Navigate to the Oracle VM VirtualBox Webpage:
 <img src="images/1a-VBox.png" height="80%" width="80%">
 <br />
 <br />
-Download the appropriate VirtualBox depending on what system you are using. (In this example we are using Windows):
+Download the appropriate VirtualBox depending on what system is in use. (In this example we are using Windows):
 <img src="images/1b-VBox.png" height="80%" width="80%">
 <br />
 <br />
+Follow the standard install process. 
+Allow Warning: Network Interfaces prompt (This allows the VM to talk to other VMs and access the internet)
+Install the missing dependencies with the program. 
+<img src="images/1c-VBox.png" height="80%" width="80%">
+<br />
+<br />
+Start the VitrualBox
 
+<h2>Install Kali Linux:</h2>
 
 <h2>Lessons Learned</h2>
 
