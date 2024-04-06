@@ -43,10 +43,17 @@ Head back to the browser and search for Kali Linux and select the Download / Get
 <img src="images/2a-Kali.png" height="80%" width="80%">
 <br />
 <br />
-Select on the Virtual Machines pre-built images from the recoomended options provided. 
+Select on the Virtual Machines pre-built images from the recommended options provided. 
 When in the Pre-built Virtual Machines selection, make sure that the 64-bit option is selected and download the virtual box selection.
 <img src="images/2b-Kali.png" height="80%" width="80%">
+<br />
+<br />
+Extract the Kali Linux zip folder to your specified location. 
+<br />
+<br />
 
+<h2>Import Kali Linux into your Virtual Machine:</h2>
+Back in Oracle VM Virtual Machine
 
 
 <h2>Lessons Learned</h2>
