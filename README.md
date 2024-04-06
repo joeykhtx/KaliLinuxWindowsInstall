@@ -34,9 +34,20 @@ Install the missing dependencies with the program.
 <img src="images/1c-VBox.png" height="80%" width="80%">
 <br />
 <br />
-Start the VitrualBox
+<b>Start the VitrualBox </b> 
+<br />
+<br />
 
 <h2>Install Kali Linux:</h2>
+Head back to the browser and search for Kali Linux and select the Download / Get Kali option under the Kali Linux page result:
+<img src="images/2a-Kali.png" height="80%" width="80%">
+<br />
+<br />
+Select on the Virtual Machines pre-built images from the recoomended options provided. 
+When in the Pre-built Virtual Machines selection, make sure that the 64-bit option is selected and download the virtual box selection.
+<img src="images/2b-Kali.png" height="80%" width="80%">
+
+
 
 <h2>Lessons Learned</h2>
 
