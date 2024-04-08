@@ -20,7 +20,6 @@ Lets walk though it!
 <h2>Environments Used </h2>
 
 - <b>Kali Linux</b> (2024.1-amd64)
-- 
 
 <h2>Install Oracle VM VirtualBox to your system:</h2>
 Navigate to the Oracle VM VirtualBox Webpage:
