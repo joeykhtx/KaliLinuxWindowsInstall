@@ -1,4 +1,4 @@
-![image](https://github.com/joeykhtx/KaliLinuxWindowsInstall/assets/156243981/dc5fc7ef-ae92-4f04-9434-4725a1705945) <h1>Installing Kali Linux to Windows Using Virtual Box</h1>
+<h1>Installing Kali Linux to Windows Using Virtual Box</h1>
 
 
 <h2>Description</h2>
