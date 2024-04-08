@@ -59,7 +59,7 @@ Back in Oracle VM Virtual Machine, select the add button on the upper side of th
 <br />
 <br />
 The machine should show up on the left of the Oracle VM app. Before we start it up there are a few settings to check and configure. 
-(In the example photo there is we already have a existing VM labled VM1 but we are going to focus on the New Kali Linux VM)
+(In the example photo there is we already have a existing VM labeled VM1 but we are going to focus on the New Kali Linux VM)
 <img src="images/3c-VB%20Settings.png" height="80%" width="80%">
 <br />
 <br />
