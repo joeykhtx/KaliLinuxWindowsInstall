@@ -3,12 +3,14 @@
 
 <h2>Description</h2>
 In this example, we will installing The Kali Linux Distro onto our Windows computer using Oracle VM Virtual Box
-These are three main steps to get up an running. 
-
-
-We will be using Nessus Essentials to scan local VMs hosted on VMWare Workstation in order run credentialed scans to discover vulnerabilities, remediate some of the vulnerabilities, then perform a rescan to verify remediation.
+These are three main steps to it get up an running. <br />
+- Install Oracle VM VirtualBox on the host machine.<br />
+- Import the Kali Linux Distribution to Oracle VM VirtualBox.<br />
+- Adjust setting in the Oracle VM VirtualBox Manager.<br />
 <br />
-
+Lets walk though it!
+<br />
+<br />
 
 <h2>Utilities Used</h2>
 
