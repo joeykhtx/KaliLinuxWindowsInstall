@@ -2,14 +2,14 @@
 
 
 <h2>Description</h2>
-In this example, we will installing The Kali Linux Distro onto our Windows computer using Oracle VM Virtual Box.
-These are three main steps to it get up an running. <br />
+In this example, we will be installing The Kali Linux Distro onto our Windows computer using Oracle VM Virtual Box.
+These are three main steps to it get up and running. <br />
 <br />
  - Install Oracle VM VirtualBox on the host machine.<br />
  - Import the Kali Linux Distribution to Oracle VM VirtualBox.<br />
- - Adjust setting in the Oracle VM VirtualBox Manager.<br />
+ - Adjust settings in the Oracle VM VirtualBox Manager.<br />
 <br />
-Lets walk though it!
+Let's walk through it!
 <br />
 <br />
 
@@ -45,7 +45,7 @@ Head back to the browser and search for Kali Linux and select the Download / Get
 <img src="images/2a-Kali.png" height="80%" width="80%">
 <br />
 <br />
-Select on the Virtual Machines pre-built images from the recommended options provided. 
+Select Virtual Machine's pre-built images from the recommended options provided. 
 When in the Pre-built Virtual Machines selection, make sure that the 64-bit option is selected and download the virtual box selection.
 <img src="images/2b-Kali.png" height="80%" width="80%">
 <br />
@@ -61,7 +61,7 @@ Back in Oracle VM Virtual Machine, select the add button on the upper side of th
 <br />
 <br />
 The machine should show up on the left of the Oracle VM app. Before we start it up there are a few settings to check and configure. 
-(In the example photo there is we already have a existing VM labeled VM1 but we are going to focus on the New Kali Linux VM)
+(In the example photo there is we already have an existing VM labeled VM1 but we are going to focus on the New Kali Linux VM)
 <img src="images/3c-VB%20Settings.png" height="80%" width="80%">
 <br />
 <br />
@@ -70,26 +70,26 @@ Under the advance tab under General Settings, we want to make sure that Bi-direc
 <br />
 <br />
 In System Settings 
-Under Motherboard Tab, we can configure how much RAM VirtualBox can give the machine. The Base Memory slide shows how much ram is availble. Kali Linux Distrobution is not resource intensive so 2 Gigabytes of RAM would be enough.
+Under the Motherboard Tab, we can configure how much RAM VirtualBox can give the machine. The Base Memory slide shows how much RAM is available. Kali Linux Distribution is not resource intensive so 2 Gigabytes of RAM would be enough.
 <img src="images/3e-VB%20Settings.png" height="80%" width="80%">
 <br />
 <br />
 In Display Setting
-Under the Screen tab, make sure Enable 3D Acceleration is un-checked.
+Under the Screen tab, make sure Enable 3D Acceleration is unchecked.
 <img src="images/3f-VB%20Settings.png" height="80%" width="80%">
 <br />
 <br />
 In Network Settings
-The tabs show 4 different adapters. We only need one adapter for this example so adapter 2, 3, and 4 can be disabled.
-Adapter 1 should be enabled and attached to NAT (This allow our Kali Linux system to connect to the internet)
+The tabs show 4 different adapters. We only need one adapter for this example so adapters 2, 3, and 4 can be disabled.
+Adapter 1 should be enabled and attached to NAT (This allows our Kali Linux system to connect to the internet)
 <img src="images/3g-VB%20Settings.png" height="80%" width="80%">
 <br />
 <br />
 In Shared Folders Settings (Optional)
-Select add share button and choose the folder path from host machine.
-Name the Folder name and specify the mount point. This specify where our shared folder is on our Kali Linux Machine. The mount point follows a typical directory structure common to Linux distributions when specifying the path.
+Select the add share button and choose the folder path from the host machine.
+Name the Folder name and specify the mount point. This specifies where our shared folder is on our Kali Linux Machine. The mount point follows a typical directory structure common to Linux distributions when specifying the path.
 Ensure that read only is unchecked 
-This allows us to transfer files between your host machine and and Virtual Machine. 
+This allows us to transfer files between your host machine and virtual machine. 
 <img src="images/3h-VB%20Settings.png" height="80%" width="80%">
 <br />
 <br />
@@ -97,7 +97,7 @@ This allows us to transfer files between your host machine and and Virtual Machi
 <b>From here we can start up the machine.<b/>
 
 <h2>In the Kali Linux Virtual Machine:</h2>
-When spinning up the virtual machine, we are prompted to log-in. By default from the Kali Linux website and the description shown in the Oracle VM VirtualBox Manager, the default username and password is kali.
+When spinning up the virtual machine, we are prompted to log in. By default from the Kali Linux website and the description shown in the Oracle VM VirtualBox Manager, the default username and password is kali.
 <img src="images/4a-InKali.png" height="80%" width="80%">
 <br />
 <br />
@@ -112,7 +112,7 @@ Follow the steps on your terminal screen to change the default password.
 <img src="images/4c-InKali.png" height="80%" width="80%">
 <br />
 <br />
-Changing the resolution to your screens extent can be done here: 
+Changing the resolution to the extent of your screen can be done here: 
 <img src="images/4b-InKali.png" height="80%" width="80%">
 <br />
 <br />
@@ -122,7 +122,7 @@ Changing the resolution to your screens extent can be done here:
 <h2>Lessons Learned</h2>
 
 - <b>Installing Oracle VM VirtualBox</b>
-- <b>Importing the Kali Linux Distribution on to VirtualBox and adjust the virtual machines settings through Oracle VM VirtualBox Manager</b>
+- <b>Importing the Kali Linux Distribution onto VirtualBox and adjusting the virtual machine settings through Oracle VM VirtualBox Manager</b>
 - <b>Change the default password of the Kali Linux Distro in the Terminal.
 
 
