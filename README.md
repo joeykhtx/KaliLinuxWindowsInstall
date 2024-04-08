@@ -1,4 +1,4 @@
- <h1>Installing Kali Linux to Windows Using Virtual Box</h1>
+![image](https://github.com/joeykhtx/KaliLinuxWindowsInstall/assets/156243981/dc5fc7ef-ae92-4f04-9434-4725a1705945) <h1>Installing Kali Linux to Windows Using Virtual Box</h1>
 
 
 <h2>Description</h2>
@@ -94,11 +94,34 @@ This allows us to transfer files between your host machine and and Virtual Machi
 
 <b>From here we can start up the machine.<b/>
 
+<h2>In the Kali Linux Virtual Machine:</h2>
+When spinning up the virtual machine, we are prompted to log-in. By default from the Kali Linux website and the description shown in the Oracle VM VirtualBox Manager, the default username and password is kali.
+<img src="images/4a-InKali.png" height="80%" width="80%">
+<br />
+<br />
+<b>Congratulations! We are now logged on our virtual machine. Any additional settings will be done on the virtual machine.<b/>
+ 
+<br />
+<br />
+
+<h2>Additional Adjustments</h2>
+Since the machine is connected to the internet, we will want to change the password to the machine. Open up the terminal and run the command: passwd
+Follow the steps on your terminal screen to change the default password.
+<img src="images/4c-InKali.png" height="80%" width="80%">
+<br />
+<br />
+Changing the resolution to your screens extent can be done here: 
+<img src="images/4b-InKali.png" height="80%" width="80%">
+<br />
+<br />
+
 
 
 <h2>Lessons Learned</h2>
 
-- <b>The loop process of scanning and remediating to manage vulnerabilities</b>
+- <b>Installing Oracle VM VirtualBox</b>
+- <b>Importing the Kali Linux Distribution on to VirtualBox and adjust the virtual machines settings through Oracle VM VirtualBox Manager</b>
+- <b>Change the default password of the Kali Linux Distro in the Terminal.
 
 
 
