@@ -2,8 +2,9 @@
 
 
 <h2>Description</h2>
-In this example, we will installing The Kali Linux Distro onto our Windows computer using Oracle VM Virtual Box
+In this example, we will installing The Kali Linux Distro onto our Windows computer using Oracle VM Virtual Box.
 These are three main steps to it get up an running. <br />
+<br />
 - Install Oracle VM VirtualBox on the host machine.<br />
 - Import the Kali Linux Distribution to Oracle VM VirtualBox.<br />
 - Adjust setting in the Oracle VM VirtualBox Manager.<br />
