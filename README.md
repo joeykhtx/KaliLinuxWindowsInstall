@@ -53,17 +53,53 @@ Extract the Kali Linux zip folder to your specified location.
 <br />
 
 <h2>Import Kali Linux into your Virtual Machine:</h2>
-Back in Oracle VM Virtual Machine
+Back in Oracle VM Virtual Machine, select the add button on the upper side of the app and locate the contents of the extracted Kali Linux zip folder.
+<img src="images/3a-Add%20to%20VB.png" height="80%" width="80%">
+<img src="images/3b-VB%20Settings.png" height="80%" width="80%">
+<br />
+<br />
+The machine should show up on the left of the Oracle VM app. Before we start it up there are a few settings to check and configure. 
+(In the example photo there is we already have a existing VM labled VM1 but we are going to focus on the New Kali Linux VM)
+<img src="images/3c-VB%20Settings.png" height="80%" width="80%">
+<br />
+<br />
+Under the advance tab under General Settings, we want to make sure that Bi-directional is enabled for both Shared Clipboard and Drag'n'Drop. (Keep in mind that this allows us to copy and paste between your virtual machine and your host machine)
+<img src="images/3d-VB%20Settings.png" height="80%" width="80%">
+<br />
+<br />
+In System Settings 
+Under Motherboard Tab, we can configure how much RAM VirtualBox can give the machine. The Base Memory slide shows how much ram is availble. Kali Linux Distrobution is not resource intensive so 2 Gigabytes of RAM would be enough.
+<img src="images/3e-VB%20Settings.png" height="80%" width="80%">
+<br />
+<br />
+In Display Setting
+Under the Screen tab, make sure Enable 3D Acceleration is un-checked.
+<img src="images/3f-VB%20Settings.png" height="80%" width="80%">
+<br />
+<br />
+In Network Settings
+The tabs show 4 different adapters. We only need one adapter for this example so adapter 2, 3, and 4 can be disabled.
+Adapter 1 should be enabled and attached to NAT (This allow our Kali Linux system to connect to the internet)
+<img src="images/3g-VB%20Settings.png" height="80%" width="80%">
+<br />
+<br />
+In Shared Folders Settings (Optional)
+Select add share button and choose the folder path from host machine.
+Name the Folder name and specify the mount point. This specify where our shared folder is on our Kali Linux Machine. The mount point follows a typical directory structure common to Linux distributions when specifying the path.
+Ensure that read only is unchecked 
+This allows us to transfer files between your host machine and and Virtual Machine. 
+<img src="images/3h-VB%20Settings.png" height="80%" width="80%">
+<br />
+<br />
+
+<b>From here we can start up the machine.<b/>
+
 
 
 <h2>Lessons Learned</h2>
 
 - <b>The loop process of scanning and remediating to manage vulnerabilities</b>
-- <b>A credential scan is will give us more feedback and alerts for us to dig into and remediate</b> 
-<br />
 
-<h2>Useful Links</h2>
-- https://www.virtualbox.org/
 
 
 <!--
